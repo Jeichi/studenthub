@@ -39,14 +39,18 @@ class CourseController extends Controller
      */
     public function store(StoreCourseRequest $request)
     {
-        Course::create($request->validated());
+        $validated = $request->validate([
+            'name' => 'required',
+            'type' => 'required',
+        ]);
+        Course::create($validated);
         return redirect()->route('courses.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  Course  $course
      * @return \Illuminate\Http\Response
      */
     public function show(Course $course)
@@ -57,7 +61,7 @@ class CourseController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  Course  $course
      * @return \Illuminate\Http\Response
      */
     public function edit(Course $course)
@@ -69,12 +73,15 @@ class CourseController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  Course  $course
      * @return \Illuminate\Http\Response
      */
     public function update(UpdateCourseRequest $request, Course $course)
     {
-        $course->update($request->validated());
+        $course->update($request->validated([
+            'name' => 'required',
+            'type' => 'required',
+        ]));
         return redirect()->route('courses.index');
     }
 
