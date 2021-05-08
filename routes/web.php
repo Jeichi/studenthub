@@ -23,7 +23,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::group(['middleware' => 'auth'], function() {
     Route::group(['middleware' => 'role:student', 'prefix' => 'student', 'as' => 'student.'], function() {
-        Route::resource('lessons', \App\Http\Controllers\Students\LessonController::class);
+        Route::resource('courses', \App\Http\Controllers\Students\CourseController::class);
     });
    Route::group(['middleware' => 'role:teacher', 'prefix' => 'teacher', 'as' => 'teacher.'], function() {
        Route::resource('courses', \App\Http\Controllers\Teachers\CourseController::class);
