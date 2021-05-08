@@ -13,6 +13,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        // Creates the user roles in the fresh database (1 - Administrator / 2 - Student / 3 - Teacher)
         $this->call(RoleSeeder::class);
+        // Creates a demo user for each other the roles. (see the UserSeeder for login details)
+        $this->call(UserSeeder::class);
     }
 }
