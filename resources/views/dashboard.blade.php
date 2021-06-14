@@ -16,7 +16,7 @@
 
                             <ul class="mt-5">
                                 <li>You can view the project GitHub: <a href="https://github.com/Jeichi/studenthub">here</a>.</li>
-                                <li>You can view the proof-of-concept: <a href="https://github.com/Jeichi/studenthub">here</a>.</li>
+                                <li>You can view the proof-of-concept: <a href="https://www.figma.com/file/mTqV1l4mOsZsYLAsrsg86n/StudentHub-Proof-Of-Concept?node-id=0%3A1">here</a>.</li>
                             </ul>
                         </div>
                     </div>
