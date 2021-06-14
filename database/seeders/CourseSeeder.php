@@ -1,0 +1,24 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Course;
+use Illuminate\Database\Seeder;
+
+class CourseSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Course::create(['name' => 'L2 Computing Technologies', 'type' => 'Further Education']);
+        Course::create(['name' => 'L3 Computing Technologies', 'type' => 'Further Education']);
+        Course::create(['name' => 'L3 Games Design', 'type' => 'Further Education']);
+        Course::create(['name' => 'FdSc Computing Technologies', 'type' => 'Higher Education']);
+        Course::create(['name' => 'BSc Computing Technologies', 'type' => 'Higher Education']);
+        Course::create(['name' => 'MSc Computing Technologies', 'type' => 'Higher Education']);
+    }
+}

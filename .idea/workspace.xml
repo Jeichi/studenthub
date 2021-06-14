@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3858d52a-58ba-4f8d-bd43-9730b09c59ab" name="Default Changelist" comment="Added UserSeeder of which will automatically create a user for each of the three user types (Administrator, Teacher and Student) for testing purposes.">
-      <change afterPath="$PROJECT_DIR$/.vs/StudentHub/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/StudentHub/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateCourseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_06_14_013829_create_courses_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teacher/courses/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teacher/courses/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teacher/courses/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/CourseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Teachers/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Teachers/CourseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/teacher/courses/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teacher/courses/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +159,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/seeders" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\picko\Desktop\Programming\studenthub\database\seeders" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -195,7 +190,7 @@
       <workItem from="1622158195285" duration="149000" />
       <workItem from="1622774199666" duration="670000" />
       <workItem from="1623438491050" duration="473000" />
-      <workItem from="1623602238639" duration="7179000" />
+      <workItem from="1623602238639" duration="7500000" />
     </task>
     <task id="LOCAL-00001" summary="Teacher and Student roles successfully created for version 2. Removal of courses and this feature will be reintroduced for version 3.">
       <created>1620487793322</created>

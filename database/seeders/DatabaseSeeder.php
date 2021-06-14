@@ -17,5 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call(RoleSeeder::class);
         // Creates a demo user for each other the roles. (see the UserSeeder for login details)
         $this->call(UserSeeder::class);
+        // Creates courses a few courses.
+        $this->call(CourseSeeder::class);
     }
 }
