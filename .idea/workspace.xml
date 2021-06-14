@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3858d52a-58ba-4f8d-bd43-9730b09c59ab" name="Default Changelist" comment="Teacher and Student roles successfully created for version 2. Removal of courses and this feature will be reintroduced for version 3.">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studenthub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studenthub.iml" afterDir="false" />
+    <list default="true" id="3858d52a-58ba-4f8d-bd43-9730b09c59ab" name="Default Changelist" comment="Added UserSeeder of which will automatically create a user for each of the three user types (Administrator, Teacher and Student) for testing purposes.">
+      <change afterPath="$PROJECT_DIR$/.vs/StudentHub/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/StudentHub/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateCourseRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_06_14_013829_create_courses_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/teacher/courses/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/teacher/courses/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/teacher/courses/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Teachers/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Teachers/CourseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/teacher/courses/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/teacher/courses/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +190,12 @@
       <workItem from="1620487104640" duration="2026000" />
       <workItem from="1620640552689" duration="1264000" />
       <workItem from="1620657479443" duration="1558000" />
+      <workItem from="1621551549778" duration="12000" />
+      <workItem from="1621797232367" duration="612000" />
+      <workItem from="1622158195285" duration="149000" />
+      <workItem from="1622774199666" duration="670000" />
+      <workItem from="1623438491050" duration="473000" />
+      <workItem from="1623602238639" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="Teacher and Student roles successfully created for version 2. Removal of courses and this feature will be reintroduced for version 3.">
       <created>1620487793322</created>
@@ -212,5 +226,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Teacher and Student roles successfully created for version 2. Removal of courses and this feature will be reintroduced for version 3." />
     <option name="LAST_COMMIT_MESSAGE" value="Teacher and Student roles successfully created for version 2. Removal of courses and this feature will be reintroduced for version 3." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
