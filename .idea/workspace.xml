@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3858d52a-58ba-4f8d-bd43-9730b09c59ab" name="Default Changelist" comment="Added UserSeeder of which will automatically create a user for each of the three user types (Administrator, Teacher and Student) for testing purposes.">
-      <change afterPath="$PROJECT_DIR$/database/seeders/CourseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,7 @@
       <workItem from="1622158195285" duration="149000" />
       <workItem from="1622774199666" duration="670000" />
       <workItem from="1623438491050" duration="473000" />
-      <workItem from="1623602238639" duration="7500000" />
+      <workItem from="1623602238639" duration="8117000" />
     </task>
     <task id="LOCAL-00001" summary="Teacher and Student roles successfully created for version 2. Removal of courses and this feature will be reintroduced for version 3.">
       <created>1620487793322</created>
